@@ -1,0 +1,32 @@
+body {
+    background-color: lightpink;
+    border: 2px solid white;
+    height: 95vh;
+    position: relative;
+}
+.wrap {
+    background-color: lightblue;
+    height: 60%;
+    width: 35%;
+    margin: auto auto;
+    position: relative;
+    top: 27vh;
+    border: 2px solid white;
+    border-radius: 5%;
+    box-sizing: border-box;
+}
+.screen {
+    background-color: white;
+    height: 20%;
+    width: 90%;
+    border-radius: 4%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    top: 4px;
+}
+.input {
+    border: 2px solid white;
+    height: 75%;
+    background-color: lightgrey;
+}
