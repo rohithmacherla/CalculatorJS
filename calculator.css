@@ -10,7 +10,7 @@ body {
     width: 35%;
     margin: auto auto;
     position: relative;
-    top: 27vh;
+    top: 22vh;
     border: 2px solid white;
     border-radius: 5%;
     box-sizing: border-box;
@@ -79,3 +79,32 @@ button:hover {
     text-align: right;
     box-sizing: border-box;
 }
+.title {
+    position: relative;
+}
+#title_text {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 0 0 white;
+    top: 2em;
+    font-size: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

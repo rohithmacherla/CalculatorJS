@@ -24,7 +24,6 @@ $(document).ready(function() {
             performOperation(current_query);
             current_query = "";
         }
-        
     }
     function updateChain(fired_button) {
 
@@ -69,10 +68,12 @@ $(document).ready(function() {
             bottom_text.html("0");
             result = 0;
             stringchain = "";
-            operator = null;
+            operator = "+";
+            current_query = "";
         } else if(fired_button == "CE") {
             bottom_text.html("0");
             stringchain = "";
+            current_query = "";
         } 
     }
 });
