@@ -1,5 +1,5 @@
 body {
-    background-color: lightpink;
+    background: linear-gradient(35deg, #ccffff, #ffcccc);
     border: 2px solid white;
     height: 95vh;
     position: relative;
